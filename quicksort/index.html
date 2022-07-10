@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quick Sort</title>
+
+</head>
+<body>
+
+        <!--This is the heading   -->
+    <div id="heading">   Quick Sort   </div>
+
+        <br>
+        <div class="sliders">
+
+               <!-- this is the slider for changing the speed -->
+        <label for="speed" style="font-size: 32px; color: white; ">Sorting Speed    </label>
+        <input type="range"  id="speed"  style="margin-right:4% ;" min="2" max="25" value="5">
+
+        <!--  this is the slider for changing the length of the array to be sorted -->
+        
+    <label for="elements" style="font-size: 32px; color: white;">Length   </label>
+    <input type="range"  id="elements" min="15" max="50" value="30">
+        </div>
+     
+    <!-- This is the container which will contain all the bars  -->
+    <div class="data-container">  </div>
+
+    <button class="btn1" id="button1"
+    onclick="generate()">Generate New Array</button>
+
+    <button class="btn2" id="button2"
+    onclick="sort() " >Quick Sort</button>
+    <script src="index.js"></script>
+</body>
+</html>

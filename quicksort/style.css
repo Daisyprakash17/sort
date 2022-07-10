@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    background-color: #222831;
+}
+#heading{
+    margin-top: 5px;
+    margin-bottom: 55px;
+    background-color: white;
+     
+    display: inline-block;
+    font-size: 48px;
+    padding: 0 10%;
+    border-radius: 50px;
+}
+.data-container{
+    height: 415px;
+    width: 600px;
+    background-color: white;
+    position: relative;
+    margin: 5% auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 10px; 
+    border-color:white;
+    transition:  1s all ease;
+}
+
+.btn1
+{
+    font-size: 32px;
+    padding: 0 2%;
+    border-radius: 50px;
+}
+.btn2{
+
+    font-size: 32px;
+    padding: 0 2%;
+    border-radius: 50px;
+}
+.bar{
+    width: 18px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #FF8E00; 
+     transition: 0.1s all ease;
+    /* time - of which this is applicable - And how it should change */ 
+}
+
+ 

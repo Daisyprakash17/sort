@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+    background-color: #222831;
+}
+#heading{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+     
+    display: inline-block;
+    font-size: 40px;
+    padding: 0 10%;
+    border-radius: 50px;
+}
+.data-container{
+    height: 315px;
+    width: 640px;
+    background-color: white;
+    position: relative;
+    margin: 5px auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 10px; 
+    border-color:white; 
+    transition: 1s all ease;
+
+}
+.temp-container{
+    height: 315px;
+    width: 640px;
+    background-color: white;
+    position: relative;
+    margin: 25PX auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 10px; 
+    border-color:white;
+    display: none;
+}
+
+.btn1
+{
+    font-size: 32px;
+    padding: 0 2%;
+    border-radius: 50px;
+}
+.btn2{
+
+    font-size: 32px;
+    padding: 0 2%;
+    border-radius: 50px;
+}
+.bar{
+    width: 18px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: aqua;
+    transition: 0.2s all ease;
+    /* time - of which this is applicable - And how it should change */ 
+}
+.bar2{ 
+        width: 18px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: aqua;
+        transition: 0.2s all ease;
+        /* time - of which this is applicable - And how it should change */ 
+     
+}
+
+ 
